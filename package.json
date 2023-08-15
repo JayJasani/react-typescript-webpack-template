@@ -1,36 +1,10 @@
 {
-  "name": "react-typescript-webpack-template",
+  "name": "react-webpack",
   "version": "1.0.0",
-  "description": "A React + TypeScript + Webpack Project Template",
-  "private": true,
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/cloud-city-crafted/react-typescript-webpack-template.git"
-  },
   "scripts": {
     "build": "webpack --config webpack.production.js",
-    "start": "webpack serve --config webpack.development.js",
-    "test": "jest",
-    "test:watch": "jest --watch",
-    "test:coverage": "jest --coverage"
+    "dev": "webpack serve --config webpack.development.js"
   },
-  "keywords": [
-    "react",
-    "reactjs",
-    "typescript",
-    "webpack",
-    "webpack5",
-    "jest",
-    "react-typescript",
-    "react-webpack",
-    "webpack-typescript"
-  ],
-  "author": "Cloud City Crafted, LLC",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/cloud-city-crafted/react-typescript-webpack-template/issues"
-  },
-  "homepage": "https://github.com/cloud-city-crafted/react-typescript-webpack-template#readme",
   "devDependencies": {
     "@testing-library/jest-dom": "^5.16.4",
     "@testing-library/react": "^13.3.0",
